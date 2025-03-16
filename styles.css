@@ -1,0 +1,81 @@
+/* Reset básico */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Modo Oscuro */
+body.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+/* Barra de navegación */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Contenido */
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+/* Sección Recursos */
+.recursos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recursos li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.recursos img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: relative; /* Antes estaba en absolute */
+    bottom: 0;
+}
+.recursos img {
+    width: 60px;  /* Cambia el tamaño según lo necesites */
+    height: auto;
+    margin-right: 10px;
+}
